@@ -1,5 +1,29 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-intervaltree (3.0.2-1.1) unstable; urgency=medium
 
-  * Initial release
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #937837
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sandro Tosi <morph@debian.org>  Sun, 22 Dec 2019 22:30:31 -0500
+
+python-intervaltree (3.0.2-1) unstable; urgency=medium
+
+  * New upstream version 3.0.2
+  * Bump Debhelper compat level
+  * Update Vcs-* headers after migration to salsa.debian.org
+  * Bump Standards-Version
+  * Mark modules Multi-Arch: any as suggested by Helmut Grohne
+    (Closes: #902210)
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 22 Jan 2019 19:08:49 +0100
+
+python-intervaltree (2.1.0-2) unstable; urgency=medium
+
+  * Rename source package, no changes to binary packages
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 03 Dec 2016 15:13:04 +0100
+
+intervaltree (2.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #838841)
+
+ -- Hilko Bengen <bengen@debian.org>  Thu, 01 Dec 2016 23:52:41 +0100
